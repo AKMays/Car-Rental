@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    background-color: lightgrey;
+    
+}
+
+.HeaderTan {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(229, 226, 223);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;    
+}
+
+.RentopiaName {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    color: white;
+    font-size: 18px;
+    padding: 13px;
+    background-color: #050404;
+    border: none;
+    display: inline-block; 
+  }  
+
+  .HostTag {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    color: black;
+    font-size: 18px;
+    padding: 13px;
+    border-color: black;
+    border: 2px solid;
+    display: inline-block;
+    position: absolute;
+    top: 34px;
+    right: 200px;
+}
+
+
+@media (min-width: 750px) {
+.BackgroundPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+}
+
+@media (min-width: 750px) {
+.BackgroundPhoto img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+}
+
+.SearchBar {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Motto {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Motto_2 {
+    position: absolute;
+    top: 45%;
+}
+
+.ExploreBack {
+    background-color: blue;
+
+}
